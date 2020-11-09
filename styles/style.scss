@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00b9ce;
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+}
+
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    width: 18.75rem;
+    
+    .userInput{
+      margin-bottom: 0.5rem;
+      padding: 0.8rem;
+      border: 0;
+      border-radius: 3px;
+      outline: 0;
+     
+    }
+    .buttonInput{
+      padding: 0.8rem;
+      background-color: #11e7ff;
+      border: 0;
+      border-radius: 5px;
+      color: #006b77;
+      font-weight: 700;
+      font-size: 1rem;
+      &:hover{
+        background: #10d1e6;
+      }
+    }
+  }
+.userCard{
+  border: 3px solid #09a;
+  border-radius: 5px;
+  background: #00b0c3;
+  padding: 5rem 2rem 2rem 2rem;
+  width: 18.75rem;
+  position: relative;
+  text-align: center;
+  margin: 6.25rem auto 0;
+  
+  
+  .userImg{
+      display: block;
+      width: 6rem;
+      
+      position: absolute;
+      left: 50%;
+      top: 0;
+      
+      transform: translate(-50%, -50%);
+      border: 3px solid #09a;
+      border-radius: 50%;
+      
+    }
+  
+  .userName{
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-decoration: underline;
+      margin-bottom: 2rem;
+    }
+  
+  .userProperty{
+      margin-bottom: 1rem;
+      font-weight: 700;
+      p{
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+      }
+      span{
+        font-weight: 400;
+      }
+    }
+}
